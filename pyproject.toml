@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rec"
+version = "0.1.0"
+description = "Movie Recommendation Engine"
+authors = ["oyanek"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymongo = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
